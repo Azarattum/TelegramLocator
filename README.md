@@ -1,5 +1,5 @@
 # Telegram Locator
-Python script that creates a precise map of people around you
+Python script that creates a precise map of people around you.
 
 ## Features:
   - Collects data using **people nearby** telegram feature
