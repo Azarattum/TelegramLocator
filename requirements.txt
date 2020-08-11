@@ -1,0 +1,2 @@
+gmplot==1.4.1
+Telethon==1.16.0
