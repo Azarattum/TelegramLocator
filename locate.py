@@ -163,7 +163,7 @@ for user in cords[0]:
 
     # Reverse dy
     c = y / (R * 1000)
-    a = math.tan(c / 2) ** 2 / (1 + math.tan(c / 2) ** 2)
+    a = abs(math.tan(abs(c / 2)) ** 2 / (1 + math.tan(abs(c / 2)) ** 2))
     dLon = math.asin((a / math.cos(la * math.pi / 180) ** 2) ** (1/2)) * 2
     offsetY = ((lo) * math.pi / 180 - dLon) * 180 / math.pi - lo
 
